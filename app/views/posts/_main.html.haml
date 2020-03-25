@@ -1,0 +1,113 @@
+.profile
+  .profile__inner
+    .profile__inner__title
+      Profile
+      .profile__inner__title__box
+        .profile__inner__title__box__photo
+          .profile__inner__title__box__photo__icon
+          %a{:href => "https://twitter.com/assy0209"}
+            %i.fab.fa-twitter
+          %a{:href => "https://github.com/atsushi-tago-0209"}
+            %i.fab.fa-github
+          %a{:href => "mailto:0209at@gmail.com"}
+            %i.fas.fa-envelope
+        .profile__inner__title__box__aboutme  
+          .profile__inner__title__box__aboutme__main
+          About Me
+          .profile__inner__title__box__aboutme__name 
+            %h2.profile__inner__title__box__aboutme__name__info パーソナル情報  
+            %p.profile__inner__title__box__aboutme__name__sentence
+              田子  篤(たご  あつし)<br>
+              1984年 02月 09日 生まれ 36歳
+            %h2.profile__inner__title__box__aboutme__name__keireki 経歴  
+            %p.profile__inner__title__box__aboutme__name__sentence1
+              ・2006年3月 ： 滋賀大学 教育学部 社会科教育課程 卒業<br>
+              ・2006年4月-2007年3月 ： 滋賀県 大津市立 瀬田小学校(非常勤講師)<br>
+              ・2007年4月-2010年3月 ： 滋賀県 大津市立 瀬田南小学校(常勤講師)<br>
+              ・2007年4月-2010年3月 ： 滋賀県 大津市立 平野小学校<br>
+              ・2010年4月-2013年3月 ： 滋賀県 大津市立 青山小学校(退職)
+
+            %h2.profile__inner__title__box__aboutme__name__language 学習経験 
+            %p.profile__inner__title__box__aboutme__name__sentence2
+              Ruby , Ruby on Rails , HTML・CSS , JavaScript , jQuery , SQL ,Git<br>
+              GitHub , Haml・SCSS・AWS 等の技術を用いたアプリケーション開発 
+            
+            %h2.profile__inner__title__box__aboutme__name__engineer どんなエンジニアになりたいか
+            %p.profile__inner__title__box__aboutme__name__sentence3
+              将来は、人の役に立つサービスを構築できるエンジニアになりたいと考えています。<br>
+              なぜなら、まだまだ生活の中には、テクノロジーにとって変えられるものがあると考えていて、不便なことや無駄に使っている時間を効率的に使える人が増えてほしいと思っているからです。
+              将来、そうったことができるようにするためには、まずは技術を磨いていくことが必要だと考えています。<br>
+              さらに、できることを増やすことやどういったニーズがあるのかをキャッチアップすることが大事だと考えています。
+
+
+ 
+
+.skill
+  .skill__inner
+    .skill__inner__title 
+      Skill
+    .skill__inner__title__box
+      .skill__inner__title__box__image
+      .skill__inner__title__box__text
+        .skill__inner__title__box__text__name
+          Grow_Up
+        %ul.skill__inner__title__box__text__overview
+          アプリの概要
+          %li ・教育に関わる研修を検索して閲覧、申し込みができるアプリ。
+          %li ・地域、カレンダー、キーワードの３つの絞り込み検索機能。
+          %li ・いいね機能
+        %ul.skill__inner__title__box__text__code
+          ソースコード<br>
+          %a{:href => "https://github.com/atsushi-tago-0209/grow_up",class:"saucecode"}
+            %i.fab.fa-github GitHub(Grow_Up)
+        %ul.skill__inner__title__box__text__ingenuity
+          こだわったところ<br>
+          %li ・初めてRailsでCRUD処理を実装して制作したアプリ
+          %li ・ユーザー視点を大切にし、Ransackの検索機能を導入した点
+          %li ・ログインしているときにのみ、いいね、編集、削除ができる。
+        %ul.skill__inner__title__box__text__gem
+          使用したGem<br>
+          %li ・Ransack：検索機能
+          %li ・Devise：ログイン機能
+          %li ・RSpec：テストコード
+          %li ・pry-byebug：アプリデバッグ
+          %li ・Pagenate : ページネーション機能
+          %li ・Ancestry : 多階層カテゴリー
+          %li ・Bootstrap-sass 
+
+.work
+  .work__inner
+    .work__inner__title 
+      Work
+    .work__inner__title__box
+      .work__inner__title__box__image
+      .work__inner__title__box__text
+        .work__inner__title__box__text__name
+          Furima
+          %ul.work__inner__title__box__text__overview
+          アプリの概要
+          %li ・教育に関わる研修を検索して閲覧、申し込みができるアプリ。
+          %li ・地域、カレンダー、キーワードの３つの絞り込み検索機能。
+          %li ・いいね機能
+        %ul.work__inner__title__box__text__code
+          ソースコード<br>
+          %a{:href => "https://github.com/atsushi-tago-0209/freemarket_sample_68f",class:"saucecode"}
+            %i.fab.fa-github GitHub(freemarket)
+        %ul.work__inner__title__box__text__ingenuity
+          こだわったところ<br>
+          %li ・初めてRailsでCRUD処理を実装して制作したアプリ
+          %li ・ユーザー視点を大切にし、Ransackの検索機能を導入した点
+          %li ・ログインしているときにのみ、いいね、編集、削除ができる。
+        %ul.work__inner__title__box__text__gem
+          使用したGem<br>
+          %li ・Ransack：検索機能
+          %li ・Devise：ログイン機能
+          %li ・RSpec：テストコード
+          %li ・pry-byebug：アプリデバッグ
+          %li ・Pagenate : ページネーション機能
+          %li ・Ancestry : 多階層カテゴリー
+          %li ・Bootstrap-sass 
+
+
+
+

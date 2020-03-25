@@ -1,0 +1,37 @@
+.header{
+  height: 530px;
+  background-image: red;
+  &__box{
+    background-image: image-url("header_image.jpg");
+    max-width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: top;
+    align-items: center;
+    padding: 0 60px;
+    &__title{
+     color: white;
+     font-size: 5.5rem;
+     text-align: center;
+     padding: 150px 0 100px 0;
+     font-family: 'Baloo Thambi 2';
+     font: bold;
+    }
+    &__info{
+      color: white;
+      font-size: 2rem;
+      text-align: center;
+      font-family: 'Baloo Thambi 2';
+      text-decoration: none;
+      display: flex;
+      margin: 0 35%;
+      a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        margin: 0 25px;
+        font-size: 40px;
+      }
+    }
+  }
+}

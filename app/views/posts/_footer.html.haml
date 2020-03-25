@@ -1,0 +1,14 @@
+.form
+  .form__element
+    .form__element__contact Contact
+    .form__element__box
+      %form{:action => "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdCRHxx3gTi0olcplszgVBYWeNhDr_MIfh9ZEsO-yUsGs2n8w/formResponse", :method => "post"}
+        .form__element__box__name
+        %input{:name => "entry.2005620554", :placeholder => "Your Name", :type => "text"}
+        .form__element__box__email
+        %input{:name => "entry.1045781291", :placeholder => "Your Email", :type => "email"}
+        .form__element__box__subject
+        %input{:name => "", :placeholder => "Subject", :type => "text"}
+        .form__element__box__messages
+        %textarea{:cols => "50", :name => "entry.839337160", :placeholder => "messages...", :rows => "8"}
+        %button.btn.btn-info{:name => "submit", :type => "submit"} Submit
