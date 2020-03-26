@@ -68,7 +68,7 @@
 }
 .skill{
   background-color: #f8f9fa!important;
-  min-height: 1000px;
+  min-height: 1100px;
   padding: 30px 0;
   color: black;
   &__inner{
@@ -85,7 +85,9 @@
         padding: 10px 0;
         &__image{
           width: 33%;
-          background-color: brown;
+          background-image: image-url("grow_up.png");
+          background-position: center ;
+          background-size:cover;
           height: 300px;
           margin-right: 50px;
           margin-top: 40px;
@@ -119,7 +121,7 @@
 
 .work{
   background-color: white;
-  min-height: 1000px;
+  min-height: 1100px;
   padding: 30px 0;
   color: black;
   &__inner{
@@ -135,8 +137,10 @@
         justify-content: space-between;
         padding: 10px 0;
         &__image{
-          width: 33%;
-          background-color: brown;
+          width: 35%;
+          background-image: image-url("furima.jpg");
+          background-position: center ;
+          background-size:cover;
           height: 300px;
           margin-right: 50px;
           margin-top: 40px;
