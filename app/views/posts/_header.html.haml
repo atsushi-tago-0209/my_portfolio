@@ -2,7 +2,14 @@
   .header__box
     %h1.header__box__title My PortFolio
     %ul.header__box__info
-      %li=link_to "profile",class: "profile"
-      %li=link_to "skill",class: "skill"
-      %li=link_to "work",class: "work"
-      %li=link_to "contact",class: "contact"
+      %a{:href => "#1"}
+        profile
+      %a{:href => "#2"}
+        skill
+      %a{:href => "#3"}
+        work
+
+      -# %li=link_to "profile",class: "profile"
+      -# %li=link_to "skill",class: "skill"
+      -# %li=link_to "work",class: "work"
+      -# %li=link_to "contact",class: "contact"
