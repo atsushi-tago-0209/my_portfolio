@@ -1,35 +1,8 @@
-.form{
-  background-color: #f8f9fa!important;
-  &__element{
-    width: 500px;
-    margin: 0 auto;
-    padding: 100px 0;
-    &__contact{
-     margin: 0 auto;
-     font-size: 80px;
-     font-family: 'Baloo Thambi 2';
-    }
-    &__box{
-      &__name{
-        margin: 20px 0;
-      }
-      &__email{
-        margin: 20px 0;
-      }
-      &__subject{
-        margin: 20px 0;
-      }
-      &__messages{
-        margin: 20px 0;
-      }
-      input{
-        height: 40px;
-        width: 465px;
-      }
-      button{
-        height: 40px;
-        width: 100px;
-      }
-    }
-  }
+p.copyright{
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  line-height: 40px;
 }
