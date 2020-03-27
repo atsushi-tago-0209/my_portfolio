@@ -25,7 +25,7 @@
             margin-left: 36px;
           }
           .fa-twitter,.fa-line,.fa-github,.fa-envelope{
-            font-size: 0.5em; 
+            font-size: 0.6em; 
           }
           .fa-twitter{
             color: #00aced ;
@@ -42,9 +42,11 @@
           width: 60%;
           &__name{
             font-size: 35px;
+            text-decoration: none;
+            list-style: none;
             &__info{
               font-size: 28px;
-              // text-decoration: underline;
+           
             }
             &__sentence{
               font-size: 16px;
@@ -53,10 +55,19 @@
               font-size: 28px;
               padding: 30px 0 10px 0;
             }
-            &__sentence1, &__sentence2, &__sentence3{
+            .executionability,.keep,.management,.communication{
+              color: red;
+              font-size: 18px;
+              font-weight: bold;
+            }
+            .newvalue,.agevalue{
+              font-size: 20px;
+              font-weight: bold;
+            }
+            &__sentence1, &__sentence2, &__sentence3,&__sentence4{
               font-size: 16px;
             }
-            &__language,&__engineer{
+            &__language,,&__learning,&__engineer{
               font-size: 28px;
               padding: 30px 0 10px 0;
             }
@@ -91,6 +102,9 @@
           height: 300px;
           margin-right: 50px;
           margin-top: 40px;
+        }
+        &__image a:hover {
+          opacity: 0.7;
         }
         &__text{
           height: 500px;
@@ -168,6 +182,48 @@
           }
         }
       }
+    }
+  }
+}
+.form{
+  background-color: #f8f9fa!important;
+  &__element{
+    width: 900px;
+    margin: 0 auto;
+    padding: 100px 0;
+    &__contact{
+     margin: 30px 0;
+     font-size: 80px;
+     font-family: 'Baloo Thambi 2';
+    }
+    &__box{
+      text-align: center;
+      font-size: 35px;
+    }
+    &__sentence{
+      text-align: left;
+      font-size: 1.25rem;
+      text-align: center;
+      padding-top: 20px;
+    }
+    &__sns{
+      margin: 0 auto;
+      width: 600px;
+      font-size: 85px;
+      text-align: center;
+    }
+      a{
+        text-decoration: none;
+        margin-left: 36px;
+      }
+      .fa-twitter,.fa-line,.fa-github,.fa-envelope{
+        font-size: 0.5em; 
+      }
+      .fa-twitter{
+        color: #00aced ;
+      }
+      .fa-envelope{
+        color: black;
     }
   }
 }
