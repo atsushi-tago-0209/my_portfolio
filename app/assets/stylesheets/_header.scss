@@ -15,7 +15,6 @@
      text-align: center;
      padding: 150px 0 100px 0;
      font-family: 'Baloo Thambi 2';
-     font: bold;
     }
     &__info{
       color: white;
@@ -34,4 +33,9 @@
       }
     }
   }
+}
+@media (max-width:1000px) {
+ .header__box__info{
+   width: 20%;
+ } 
 }
