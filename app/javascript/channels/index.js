@@ -2,7 +2,6 @@ $(function(){
     // #で始まるアンカーをクリックした場合に処理
     $('a[href^=#]').click(function() {
        // スクロールの速度
-       console.log(a);
        var speed = 400; // ミリ秒
        // アンカーの値取得
        var href= $(this).attr("href");
